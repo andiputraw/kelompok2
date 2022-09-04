@@ -1,0 +1,59 @@
+footer {
+  width: 100%;
+  height: 380px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 200px;
+  position: relative;
+}
+
+footer .head h3 {
+  font-size: 60px;
+}
+
+footer .head h4 {
+  font-size: 30px;
+}
+
+footer section p {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+footer section ul {
+  list-style: none;
+}
+
+footer section ul li {
+  color: #c7c7c7;
+  cursor: pointer;
+  margin: 8px 0;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+footer section ul li:hover {
+  color: #fff;
+}
+
+footer .ig ul li a {
+  color: #c7c7c7;
+  transition: all 0.3s;
+}
+footer .ig ul li a:hover {
+  color: #fff;
+}
+
+footer .copyright {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
