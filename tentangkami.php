@@ -1,6 +1,12 @@
 <?php 
 require 'functions.php';
 
+if (!isset($_SESSION["login"])){
+    header("Location: login.php");
+    exit;
+  }
+  
+$data = data();
 $contentcreator = query( "SELECT * FROM user WHERE admin = 2");
 $programmer = query("SELECT * FROM user WHERE admin = 1");
 ?>
@@ -71,6 +77,22 @@ $programmer = query("SELECT * FROM user WHERE admin = 1");
             <p><?=$programmer[1]['nama'] ?></p>
             </td>
 
+        </tr>
+    </table>
+
+    <h1>Ucapan terimakasih</h1>
+    <hr>
+    <table border="1">
+        <tr>
+            <td>
+                <img src="profile/<?=$data['gambar'] ?>" width="40px" alt="">
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    <p><?=$data['nama'] ?></p><br>
+                    <p>Sebagai pembaca</p>
+                </td>
         </tr>
     </table>
 </body>

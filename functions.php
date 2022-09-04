@@ -6,6 +6,7 @@ if (isset($_SESSION['id'])){
     $id = $_SESSION['id'];
 }
 
+
 $conn = mysqli_connect('localhost','root','','bindo');
 
 function query($query){

@@ -9,6 +9,11 @@ if(isset($_POST['ubah'])){
     $data = ubah($_POST);
 
 }
+if (!isset($_SESSION["login"])){
+    header("Location: login.php");
+    exit;
+  }
+  
 
 ?>
 
