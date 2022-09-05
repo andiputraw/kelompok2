@@ -1,6 +1,11 @@
 <?php 
 require 'functions.php';
 
+if (!isset($_SESSION["login"])){
+    header("Location: login.php");
+    exit;
+  }
+  
 $username = datauser();
 $data = data();
 
@@ -9,11 +14,6 @@ if(isset($_POST['ubah'])){
     $data = ubah($_POST);
 
 }
-if (!isset($_SESSION["login"])){
-    header("Location: login.php");
-    exit;
-  }
-  
 
 ?>
 
