@@ -1,3 +1,19 @@
+<?php 
+
+require 'functions.php';
+
+
+if (!isset($_SESSION["login"])){
+  header("Location: login.php");
+  exit;
+}
+
+$username = datauser();
+$data = data()
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,8 +34,8 @@
           <li><a href="#interpretasi">Interpretasi</a></li>
         </ul>
         <section id="register-btn">
-          <button type="button" class="login-btn"><a href="./login.html">LOGIN</a></button>
-          <button type="button" class="signup-btn"><a href="#">SIGN UP</a></button>
+          <button type="button" class="login-btn"><a href="profileuser.php"><img src="profile/<?=$data["gambar"]?>" width="12px" alt=""> <?= $username;  ?></a></button>
+          <button type="button" class="signup-btn"><a href="logout.php">Logout</a></button>
         </section>
       </nav>
       <video autoplay loop muted>
