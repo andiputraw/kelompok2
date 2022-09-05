@@ -18,31 +18,25 @@ $data = data();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $username ?></title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/userprofil.css">
 </head>
 <body>
-    <a href="home.php">Kembali</a>
-    <br>
-    <br>
-    <br>
-    <table>
-        <tr>
-            <td rowspan="2">
-                <img src="profile/<?=$data["gambar"]; ?>" alt="" width="100px">
-            </td>
-            <td>
-                <p>Nama : <?=$data["nama"]?></p>
-            </td>
-        </tr>
-        <tr>
-         
-            <td>
-                <p>pesan : <?=$data["pesan"] ?></p> 
-            </td>
-        </tr>
-    </table>
+    <a href="home.php" class="kembali"><ion-icon name="arrow-back"></ion-icon> Kembali <hr></a>
+    <div class="wrapper">
+        <section class="img-profil">
+            <img src="profile/<?=$data["gambar"]; ?>" alt="" width="200px">
+        </section>
+        <section class="input">
+            <p>Nama<br><span><?=$data["nama"]?></span></p>
+            <p>Pesan<br><span><?=$data["pesan"] ?></span></p> 
+            <button><a href="editprofile.php">Edit Profile</a></button>
+        </section>
+    </div>
 
-    <button><a href="editprofile.php">Edit Profile</a></button>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
 

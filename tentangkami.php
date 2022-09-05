@@ -22,78 +22,37 @@ $programmer = query("SELECT * FROM user WHERE admin = 1");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang Kami</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tentangkami.css">
 </head>
 <body>
 
-
-<h1>Content creator</h1>
-<hr>
-    <table border = "1" width = "500px">
-        <tr>
-            <td>
-                <img src="profile/<?=$contentcreator[0]['gambar'] ?>" width = "40px" alt="">
-            </td>
-            <td>
-                <img src="profile/<?=$contentcreator[1]['gambar'] ?>"  width = "40px" alt="">
-            </td>
-            <td>
-                <img src="profile/<?=$contentcreator[2]['gambar'] ?>"  width = "40px" alt="">
-            </td>
-            <td>
-                <img src="profile/<?=$contentcreator[3]['gambar'] ?>" width = "40px"  alt="">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><?=$contentcreator[0]['nama'] ?></p>
-            </td>
-            <td>
-                <p><?=$contentcreator[1]['nama'] ?></p>
-            </td>
-            <td>
-                <p><?=$contentcreator[2]['nama'] ?></p>
-            </td>
-            <td>
-                <p><?=$contentcreator[3]['nama'] ?></p>
-            </td>
-        </tr>   
-    </table>
     <h1>Programmer</h1>
-    <hr>
-    <table border = "1" width = "500px" >
-        <tr>
-            <td>
-                <img src="profile/<?=$programmer[0]['gambar'] ?>" width = "40px"  alt="">
-            </td>
-            <td>
-                <img src="profile/<?=$programmer[1]['gambar'] ?>" width = "40px"  alt="">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p><?=$programmer[0]['nama'] ?></p>
-            </td>
-            <td>
-            <p><?=$programmer[1]['nama'] ?></p>
-            </td>
+    <section class="programmer">
+        <figure><img src="profile/<?=$programmer[0]['gambar'] ?>" width = "200px"  alt=""><figcaption>
+        <?=$programmer[0]['nama'] ?></figcaption></figure>
+        <figure><img src="profile/<?=$programmer[1]['gambar'] ?>" width = "200px"  alt=""><figcaption><?=$programmer[1]['nama'] ?></figcaption></figure>
+    </section>
 
-        </tr>
-    </table>
+    <h1>Content creator</h1>
+    <section class="content-creator">
+        <figure><img src="profile/<?=$contentcreator[0]['gambar'] ?>" width = "200px" alt=""><figcaption><?=$contentcreator[0]['nama'] ?></figcaption></figure>
+        <figure><img src="profile/<?=$contentcreator[1]['gambar'] ?>"  width = "200px" alt=""><figcaption><?=$contentcreator[1]['nama'] ?></figcaption></figure>
+        <figure><img src="profile/<?=$contentcreator[2]['gambar'] ?>"  width = "200px" alt=""><figcaption><?=$contentcreator[2]['nama'] ?></figcaption></figure>
+        <figure><img src="profile/<?=$contentcreator[3]['gambar'] ?>" width = "200px"  alt=""><figcaption><?=$contentcreator[3]['nama'] ?></figcaption></figure>
+    </section>
+            
+       
 
     <h1>Ucapan terimakasih</h1>
-    <hr>
-    <table border="1">
-        <tr>
-            <td>
-                <img src="profile/<?=$data['gambar'] ?>" width="40px" alt="">
-            </td>
-        </tr>
-        <tr>
-                <td>
-                    <p><?=$data['nama'] ?></p><br>
-                    <p>Sebagai pembaca</p>
-                </td>
-        </tr>
-    </table>
+    <section>
+    <figure><img src="profile/<?=$data['gambar'] ?>" width="200px" alt=""><figcaption><p><?=$data['nama'] ?></p>
+    <p>Sebagai pembaca</p></figcaption></figure>
+</sction>
+            
+        
+            
+                    
+                
 </body>
 </html>

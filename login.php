@@ -38,33 +38,33 @@ if(isset($_POST["login"])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
     
+    <div class="container">
+        <div class="form-container">
+            <h1>Login <hr></h1>
+            <form name="" action="" method="POST" >
+                <section>
+                    <label for="username"><ion-icon name="person"></ion-icon></label>
+                    <input type="text" name="username" id="username" placeholder="username">
+                </section>
+                <section>
+                    <label for="password"><ion-icon name="lock-closed"></ion-icon></label>
+                    <input type="password" name="password" id="password" placeholder="password">
+                </section>    
+                <button type="submit" name="login">Login</button>
+            </form>
+            <p class="register">Belum punya akun? <a href="register.php">Daftar disini</a></p>
+        </div>
+        <video autoplay loop muted>
+            <source src="./asset/video/y2mate.com - COVID19 3D Animation Background 4K FREE Download Video Coronavirus No Copyright Cinema 4D_480p (online-video-cutter.com).mp4" type="video/mp4" />
+        </video>
+    </div>
 
-    <form name="" action="" method="POST" >
-    
-
-    <ul>
-        <li>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username">
-        </li>
-        <li>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </li>
-        <li>
-            <button type="submit" name="login">Login</button>
-        </li>
-    </ul>
-    
-
-
-    </form>
-
-    <br>
-    <p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -121,7 +121,7 @@ $data = data()
           <li>Andi Putra Wijaya</li>
           <li>Ayudia Dewi Maharani</li>
           <li>Mochammad Sayyid Ath-Thoriq</li>
-          <li>Putri Intan Nuraini</li>
+          <li>Nisrina Nuraini</li>
           <li>Rafi Fauzan</li>
           <li>Taufik Ismail</li>
         </ul>
@@ -132,7 +132,7 @@ $data = data()
           <li><a href="https://www.instagram.com/andiputraw925/" target="_blank">andiputraw925</a></li>
           <li><a href="https://www.instagram.com/ayudieee/" target="_blank">ayudieee</a></li>
           <li><a href="https://www.instagram.com/sayyidarik/" target="_blank">sayyidarik</a></li>
-          <li><a href="https://www.instagram.com/putriintnnur/" target="_blank">putriintnnur</a></li>
+          <li><a href="hhttps://www.instagram.com/kznisrina/" target="_blank">kznisrina</a></li>
           <li><a href="https://www.instagram.com/rrfauzan_/" target="_blank">rrfauzan_</a></li>
           <li><a href="https://www.instagram.com/taufiksmail_/" target="_blank">taufiksmail_</a></li>
         </ul>
