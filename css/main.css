@@ -92,7 +92,8 @@ main #rangkaian-peristiwa {
   justify-content: space-between;
 }
 
-main #rangkaian-peristiwa hr {
+main #rangkaian-peristiwa hr:nth-child(1),
+main #rangkaian-peristiwa hr:nth-child(5){
   width: 300px;
   outline: none;
   border: 3px solid #fff;
@@ -100,14 +101,14 @@ main #rangkaian-peristiwa hr {
   align-self: flex-end;
 }
 
-main #rangkaian-peristiwa .penyebab {
+main #rangkaian-peristiwa .bagian {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin: 50px 0;
 }
 
-main #rangkaian-peristiwa .penyebab p {
+main #rangkaian-peristiwa .bagian p {
   width: 640px;
   font-weight: 300;
   align-self: center;
@@ -119,8 +120,12 @@ main #rangkaian-peristiwa img {
   border-radius: 8px;
 }
 
-main #rangkaian-peristiwa hr:nth-child(3) {
+main #rangkaian-peristiwa hr:nth-child(3),
+main #rangkaian-peristiwa hr:nth-child(7)  {
   width: 300px;
+  outline: none;
+  border: 3px solid #fff;
+  border-radius: 3px;
   align-self: flex-start;
 }
 
