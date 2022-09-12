@@ -81,7 +81,7 @@ $data = data()
       </article>
       <article id="rangkaian-peristiwa">
         <hr />
-        <section class="penyebab">
+        <section class="bagian penyebab">
           <img src="./asset/img/coronavirus-4952102_1920.jpg" alt="cough" width="400px" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam nobis id, corrupti neque nostrum, officiis quibusdam accusamus fugit sequi soluta possimus dolores natus suscipit magni culpa libero alias exercitationem
@@ -90,13 +90,22 @@ $data = data()
           </p>
         </section>
         <hr />
-        <section class="penyebab">
+        <section class="bagian gejala">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam nobis id, corrupti neque nostrum, officiis quibusdam accusamus fugit sequi soluta possimus dolores natus suscipit magni culpa libero alias exercitationem
             atque eaque recusandae? Odit ipsa blanditiis ab, sunt laborum quibusdam veritatis aliquid vel eos maxime eligendi incidunt? Laudantium recusandae assumenda aperiam quia necessitatibus provident ab autem dicta alias, illum
             tenetur accusantium atque quas iste. Explicabo, aliquid libero! Doloribus ratione magni hic ad, ut quisquam libero dolorum odio eaque repellat maxime!
           </p>
           <img src="./asset/img/coronavirus-4914026_1920.jpg" alt="cough" width="400px" />
+        </section>
+        <hr />
+        <section class="bagian akibat">
+          <img src="./asset/img/coronavirus-4914026_1920.jpg" alt="cough" width="400px" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam nobis id, corrupti neque nostrum, officiis quibusdam accusamus fugit sequi soluta possimus dolores natus suscipit magni culpa libero alias exercitationem
+            atque eaque recusandae? Odit ipsa blanditiis ab, sunt laborum quibusdam veritatis aliquid vel eos maxime eligendi incidunt? Laudantium recusandae assumenda aperiam quia necessitatibus provident ab autem dicta alias, illum
+            tenetur accusantium atque quas iste. Explicabo, aliquid libero! Doloribus ratione magni hic ad, ut quisquam libero dolorum odio eaque repellat maxime!
+          </p>
         </section>
         <hr />
       </article>

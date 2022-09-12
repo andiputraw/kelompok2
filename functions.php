@@ -7,7 +7,7 @@ if (isset($_SESSION['id'])){
 }
 
 
-$conn = mysqli_connect('localhost','root','','phpdasar');
+$conn = mysqli_connect('localhost','root','','bindo');
 
 function query($query){
 
@@ -56,7 +56,17 @@ function register($data){
     //enkripsi
     $password = password_hash("$password",PASSWORD_DEFAULT);
 
-    mysqli_query($conn,"INSERT INTO user VALUES ('','$username','$username','$password',DEFAULT,DEFAULT,DEFAULT)");
+    mysqli_query($conn,"INSERT 
+                        INTO 
+                        user VALUES(
+                            '',
+                            '$username',
+                            '$username',
+                            '$password',
+                            DEFAULT,
+                            DEFAULT,
+                            DEFAULT
+                            )");
 
     return mysqli_affected_rows($conn);
     

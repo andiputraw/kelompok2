@@ -23,6 +23,23 @@ if(isset($_POST["login"])){
             header("Location: home.php");
             exit;
         }
+        else{
+            echo "
+            <script>
+            alert('username atau password salah');
+            </script>
+            
+            ";
+        }
+
+        
+    }else{
+        echo "
+        <script>
+        alert('username atau password salah');
+        </script>
+        
+        ";
     }
 
 }
