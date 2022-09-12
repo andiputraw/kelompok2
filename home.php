@@ -96,7 +96,7 @@ $data = data()
             atque eaque recusandae? Odit ipsa blanditiis ab, sunt laborum quibusdam veritatis aliquid vel eos maxime eligendi incidunt? Laudantium recusandae assumenda aperiam quia necessitatibus provident ab autem dicta alias, illum
             tenetur accusantium atque quas iste. Explicabo, aliquid libero! Doloribus ratione magni hic ad, ut quisquam libero dolorum odio eaque repellat maxime!
           </p>
-          <img src="./asset/img/coronavirus-4914026_1920.jpg" alt="cough" width="400px" />
+          <img src="./asset/img/mufid-majnun-yqLsYiuQgwo-unsplash.jpg" alt="cough" width="400px" />
         </section>
         <hr />
         <section class="bagian akibat">
@@ -118,7 +118,9 @@ $data = data()
         <hr />
       </article>
     </main>
-
+    <video controls>
+      <source src="" type="video/mp4" />
+    </video>
     <footer>
       <section class="head">
         <h3>Kelompok 2</h3>
@@ -146,6 +148,7 @@ $data = data()
           <li><a href="https://www.instagram.com/taufiksmail_/" target="_blank">taufiksmail_</a></li>
         </ul>
       </section>
+      <p><a href="./tentangkami.php">Tentang Kami</a></p>
       <p class="copyright">&copy; Copyright 2022. built with &hearts;</p>
     </footer>
   </body>

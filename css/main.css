@@ -1,5 +1,5 @@
 main {
-  min-height: 1750px;
+  min-height: 1800px;
   background: #1f1f1f;
   color: #fff;
   padding: 50px 60px;
@@ -93,7 +93,7 @@ main #rangkaian-peristiwa {
 }
 
 main #rangkaian-peristiwa hr:nth-child(1),
-main #rangkaian-peristiwa hr:nth-child(5){
+main #rangkaian-peristiwa hr:nth-child(5) {
   width: 300px;
   outline: none;
   border: 3px solid #fff;
@@ -121,7 +121,7 @@ main #rangkaian-peristiwa img {
 }
 
 main #rangkaian-peristiwa hr:nth-child(3),
-main #rangkaian-peristiwa hr:nth-child(7)  {
+main #rangkaian-peristiwa hr:nth-child(7) {
   width: 300px;
   outline: none;
   border: 3px solid #fff;

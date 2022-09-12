@@ -7,7 +7,7 @@ if (isset($_SESSION['id'])){
 }
 
 
-$conn = mysqli_connect('localhost','root','','bindo');
+$conn = mysqli_connect('localhost','root','','phpdasar');
 
 function query($query){
 
